@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: content-box;
+}
+
+/* .container {
+    background-color: #86f;
+    border: 1px solid black;
+    padding: 20px 5px;
+    width: 100%;
+}
+
+.caja {
+    background-color: #025;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    position: relative;
+    animation-name: desplazarse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+@keyframes desplazarse {
+    0% {
+        left: 0;
+        
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        left: 80%;
+        background-color: blue;
+    }
+} */
+.Languages { /*CENTRO: top: 362.153px; left: 367.998px;*/
+    box-sizing: border-box;
+    background-color: #FFF;
+    outline: 5px solid gray;
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+    position: relative;
+    padding: 0;
+}
+
+.Languages img[alt="C#"]{
+    width: 85.33px;
+    height: 96px;
+}
+
+.Languages img{
+    width: 85.33px;
+    height: 85.33px;
+}
+
+.PuntoReferencia {
+    box-sizing: border-box;
+    background-color: #000;
+    color: #FFF;
+    border: 5px solid #A00;
+    border-radius: 100%;
+    position: absolute;
+    top: 307.494px;
+    left: 307.494px;
+    width: 185px;
+    height: 185px;
+    display: flex;
+}
+
+.PuntoReferencia p {
+    text-align: center;
+    margin: auto;
+}
+
+.ContainerCS {
+    position: absolute;
+    top: 150px;
+    left: 261.9215px;
+    animation-name: desplazarCS;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: -50s;
+    animation-fill-mode: both;
+}
+
+.ContainerCSS {
+    position: absolute;
+    top: 150px;
+    left: 474.0745px;
+    animation-name: desplazarCSS;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: -50s;
+    animation-fill-mode: both;
+}
+
+.ContainerHTML {
+    position: absolute;
+    top: 362.153px;
+    left: 155.845px;
+    animation-name: desplazarHTML;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: -50s;
+    animation-fill-mode: both;
+}
+
+.ContainerJS {
+    position: absolute;
+    top: 362.153px;
+    left: 580.151px;
+    animation-name: desplazarJS;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: -50s;
+    animation-fill-mode: both;
+}
+
+.ContainerPHP {
+    position: absolute;
+    top: 574.306px;
+    left: 261.9215px; 
+    animation-name: desplazarPHP;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: -50s;
+    animation-fill-mode: both;
+    
+}
+
+.ContainerPY {
+    position: absolute;
+    top: 574.306px;
+    left: 474.0745px;
+    animation-name: desplazarPY;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: -50s;
+    animation-fill-mode: both;
+}
+
+@keyframes desplazarCS {
+    0% {
+        top: 150px;
+        left: 261.9215px;
+    }
+    14.285714285714% {
+        top: 150px;
+        left: 474.0745px;
+    }
+    28.571428571428% {
+        top: 362.153px;
+        left: 580.151px;
+    }
+    42.857142857142% {
+        top: 574.306px;
+        left: 474.0745px;
+    }
+    57.142857142857% {
+        top: 574.306px;
+        left: 261.9215px;
+    }
+    71.428571428571% {
+        top: 362.153px;
+        left: 155.845px;
+    }
+    85.714285714285% {
+        top: 150px;
+        left: 261.9215px;
+    }
+}
+
+@keyframes desplazarCSS {
+    0% {
+        top: 150px;
+        left: 474.0745px;
+    }
+    14.285714285714% {
+        top: 362.153px;
+        left: 580.151px;
+    }
+    28.571428571428% {
+        top: 574.306px;
+        left: 474.0745px;
+    }
+    42.857142857142% {
+        top: 574.306px;
+        left: 261.9215px;
+    }
+    57.142857142857% {
+        top: 362.153px;
+        left: 155.845px;
+    }
+    71.428571428571% {
+        top: 150px;
+        left: 261.9215px;
+    }
+    85.714285714285% {
+        top: 150px;
+        left: 474.0745px;
+    }
+} 
+
+@keyframes desplazarJS {
+    0% {
+        top: 362.153px;
+        left: 580.151px;
+    }
+    14.285714285714% {
+        top: 574.306px;
+        left: 474.0745px;
+    }
+    28.571428571428% {
+        top: 574.306px;
+        left: 261.9215px;
+    }
+    42.857142857142% {
+        top: 362.153px;
+        left: 155.845px;
+    }
+    57.142857142857% {
+        top: 150px;
+        left: 261.9215px;
+    }
+    71.428571428571% {
+        top: 150px;
+        left: 474.0745px;
+    }
+    85.714285714285% {
+        top: 362.153px;
+        left: 580.151px;
+    }
+} 
+
+@keyframes desplazarPY {
+    0% {
+        top: 574.306px;
+        left: 474.0745px;
+    }
+    14.285714285714% {
+        top: 574.306px;
+        left: 261.9215px;
+    }
+    28.571428571428% {
+        top: 362.153px;
+        left: 155.845px;
+    }
+    42.857142857142% {
+        top: 150px;
+        left: 261.9215px;
+    }
+    57.142857142857% {
+        top: 150px;
+        left: 474.0745px;
+    }
+    71.428571428571% {
+        top: 362.153px;
+        left: 580.151px;
+    }
+    85.714285714285% {
+        top: 574.306px;
+        left: 474.0745px;
+    }
+} 
+
+@keyframes desplazarPHP {
+    0% {
+        top: 574.306px;
+        left: 261.9215px; 
+    }
+    14.285714285714% {
+        top: 362.153px;
+        left: 155.845px;
+    }
+    28.571428571428% {
+        top: 150px;
+        left: 261.9215px;
+    }
+    42.857142857142% {
+        top: 150px;
+        left: 474.0745px;
+    }
+    57.142857142857% {
+        top: 362.153px;
+        left: 580.151px;
+    }
+    71.428571428571% {
+        top: 574.306px;
+        left: 474.0745px;
+    }
+    85.714285714285% {
+        top: 574.306px;
+        left: 261.9215px;
+    }
+} 
+
+@keyframes desplazarHTML {
+    0% {
+        top: 362.153px;
+        left: 155.845px;
+    }
+    14.285714285714% {
+        top: 150px;
+        left: 261.9215px;
+    }
+    28.571428571428% {
+        top: 150px;
+        left: 474.0745px;
+    }
+    42.857142857142% {
+        top: 362.153px;
+        left: 580.151px;
+    }
+    57.142857142857% {
+        top: 574.306px;
+        left: 474.0745px;
+    }
+    71.428571428571% {
+        top: 574.306px;
+        left: 261.9215px;
+    }
+    85.714285714285% {
+        top: 362.153px;
+        left: 155.845px;
+    }
+}
